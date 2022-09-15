@@ -126,7 +126,7 @@ public class TrackSegment : MonoBehaviour
 
 #if UNITY_EDITOR
 [CustomEditor(typeof(TrackSegment))]
-class TrackSegmentEditor : Editor
+class TrackSegmentEditor : UnityEditor.Editor
 {
     protected TrackSegment m_Segment;
 

@@ -464,7 +464,7 @@ public class PlayerData
 
 // Helper class to cheat in the editor for test purpose
 #if UNITY_EDITOR
-public class PlayerDataEditor : Editor
+public class PlayerDataEditor : UnityEditor.Editor
 {
 	[MenuItem("Trash Dash Debug/Clear Save")]
     static public void ClearSave()
